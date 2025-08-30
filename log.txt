@@ -1,0 +1,17 @@
+
+New Server Session: 
+
+Total number of successful equations: 1
+[1 + 2]
+
+Total number of successful equations: 2
+[1 + 2, 3]
+
+Total number of successful equations: 3
+[1 + 2, 3, 2 / 2]
+
+Total number of successful equations: 4
+[1 + 2, 3, 2 / 2, 9 * 5 * 1]
+
+Total number of successful equations: 5
+[1 + 2, 3, 2 / 2, 9 * 5 * 1, 6 * 3]

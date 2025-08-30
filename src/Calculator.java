@@ -17,7 +17,6 @@ public class Calculator {
      */
     public Calculator() {
         this.client = new CalculatorClient();
-        client.connectToServer();
     }
 
     // --- Observer Pattern Methods ---
@@ -55,6 +54,8 @@ public class Calculator {
     public void pressEquals() {
         // When equals is pressed, send the equation to the server
         if (currentExpression.length() > 0) {
+            String x = currentExpression.toString();
+            System.out.println("current expression before sent to client: "+x);
             client.sendEquation(currentExpression.toString());
             // The diagram shows different states for handling results,
             // but for now, we will just clear the expression.
